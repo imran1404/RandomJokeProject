@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+ 
+    position: relative;
+}
+.jkbtn{
+    
+    padding: 3px 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+    
+}
+.joke{
+    padding: 40px;
+    font-size: 14px;
+    overflow-y: scroll;
+}
